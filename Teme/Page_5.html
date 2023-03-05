@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Tema 1</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+.vertical-menu {
+  width: 100px;
+  height: 44px;
+  overflow-y: auto;
+  position: center;
+  flex-direction: column;
+  text-align: center;
+  margin:auto;
+  
+}
+
+.vertical-menu a {
+  background-color: whitesmoke;
+  color: black;
+  display: block;
+  padding: 12px;
+  text-decoration: none;
+}
+
+
+.vertical-menu a:hover {
+  background-color: #ccc;
+}
+
+.vertical-menu a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+</style>
+</head>
+<body style="background-color: lightgoldenrodyellow;">
+
+    <h1 align="center "><q><i>Eat drink and be merry.</i></q></h1>
+
+    <div class="vertical-menu">
+    <a href="#" class="active">Menu</a>
+      <a href="#">Page 1</a>
+      <a href="#">Page 2</a>
+      <a href="#">Page 3</a>
+      <a href="#">Page 4</a>
+      <a href="#">Page 5</a>
+    </div>
+ <hr/>
+
+<h3>This is a recipe site with 4 types of food, it will be nice, from you to 
+recive a feedback.</h3>
+
+<h2>Vote for your favorite food:</h2>
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname">
+<br><br>
+    <label for="like">Please select what did you like the most:</label>
+    <br>
+    <select  name="food" id="food">    
+      <option value="snack">Snack</option>
+      <option value="soupe">Soupe</option>
+      <option value="pasta">Garlic Shrimp Pasta</option>
+      <option value="cookies">Cookies</option>
+    </select>
+    <br><br>
+    <input  type="submit" name="subscribe" value="Subscribe" />
+
+</body>
+</html>
